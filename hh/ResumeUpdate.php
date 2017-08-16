@@ -23,7 +23,7 @@ class ResumeUpdate
 
         if (!$resume || !$token || !$smstoken || !$phone) {
 
-            exit("Some input parameters are incorrect. Please check index.php");
+            exit("Some input parameters are incorrect . Please check index.php");
         }
     }
 
