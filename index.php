@@ -13,7 +13,6 @@ $HHResume = ""; // ID Резюме
 $HHToken = ""; // Токен для доступа на HeadHunter
 $SMSToken = ""; //SMS.ru Токен для отправки смс
 $Phone = ""; //Ваш номер телефона
-$Phone = ""; //Ваш номер телефона
 
 /* Обновление резюме */
 $Update = new ResumeUpdate($HHResume, $HHToken, $SMSToken, $Phone); //Входные параметры
