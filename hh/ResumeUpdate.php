@@ -4,7 +4,7 @@
  * User: Dmitry^
  */
 
-namespace HHUpdate;
+namespace hh\HHUpdate;
 
 class ResumeUpdate
 {
