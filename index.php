@@ -9,11 +9,10 @@ require_once "hh/ResumeUpdate.php";
 use HHUpdate\ResumeUpdate as ResumeUpdate;
 
 /* Config */
-$HHResume = ""; // ID Резюме
-$HHToken = ""; // Токен для доступа на HeadHunter
-$SMSToken = ""; //SMS.ru Токен для отправки смс
-$Phone = ""; //Ваш номер телефона
-
+$HHResume = ""; // id resume
+$HHToken = ""; // token for access to hh.ru
+$SMSToken = ""; //SMS.ru token for send notification sms
+$Phone = ""; //Phone
 /* Обновление резюме */
-$Update = new ResumeUpdate($HHResume, $HHToken, $SMSToken, $Phone); //Входные параметры
-$Update->UpdateResume(); // Вызов функции обновления
+$Update = new ResumeUpdate($HHResume, $HHToken, $SMSToken, $Phone); //Input parametrs
+$Update->UpdateResume(); // Call update function
