@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/levin-pwnz/hh_update.svg?branch=master)](https://travis-ci.org/levin-pwnz/hh_update)
+---------------
 Автообновление резюме на HeadHunter c уведомлением по SMS
 ---------------
 
